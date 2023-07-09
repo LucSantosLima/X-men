@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MEN</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Tem o poder de disparar rajadas de energia
+                ópticas por causa de um acidente, mas não consegue controlá-los.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey"
+                    data-description="Jean Grey é uma mutante nível Ômega e o principal avatar da força fênix.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                    data-description="Kitty Pryde, ou Lince Negra, originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar. Seu grande amor é Colossus. ">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description="Ororo Munroe, mais conhecida pelo nome de Tempestade. Cultuada como Deusa e exaltada como rainha, ela é classificada como mutante nível ômega, o que significa que seu tipo de poder não conhece limites e não é superado por seus semelhantes.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description="Vampira é uma personagem integrante dos X-Men. Seus poderes são de sugar energia vital , memórias e poderes de outros mutantes através da pele , por isso sempre está com uma luva.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                    data-description="Wolverine conhecido como Logan é um mutante que possui sentidos afiados, capacidades físicas aprimoradas, habilidade regenerativa poderosa conhecida como fator de cura e três garras retratáveis ​​de osso em cada mão. ">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"
+                    data-description="Noturno possui apenas três dedos (incluindo um polegar opositor) em cada mão. Ele também tem apenas 2 dedos em cada pé, cada um maior que o de um ser humano comum.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="O homem agora conhecido como 'Magneto' nasceu como Max Eisenhardt. Enquanto frequentava a escola em Nuremberg, Alemanha, Max se sentiu atraído para uma menina Cigana, chamada Magda, a filha de um zelador de escola.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Ciclope">
+
+            <div class="informacoes-personagens">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
